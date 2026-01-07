@@ -27,5 +27,4 @@ resumo.title()
 resumo.capitalize()
 
 # Imprima na tela uma string utilizando uma variável, usando o recurso string format
-idade = 46
 print(f"Paloma é uma mulher de {idade} anos que deseja mudar de profissão, por isso está estudando 'python'.")
