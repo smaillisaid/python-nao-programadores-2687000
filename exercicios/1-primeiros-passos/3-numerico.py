@@ -3,9 +3,13 @@ idade_numerica = 46
 altura = 1.74
 
 # Descubra o tipo de dado de cada variável acima
-
+print(type(data_nascimento))
+print(type(idade_numerica))
+print(type(altura))
 
 # Realize uma operação entre dados do tipo string e inteiro
-
-
+nascimento_idade = data_nascimento + str(idade_numerica)
+print(nascimento_idade)
 # Realize uma operação entre dados do tipo inteiro e float
+idade_altura = idade_numerica + altura
+print(idade_altura)
